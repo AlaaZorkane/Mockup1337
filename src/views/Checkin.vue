@@ -59,7 +59,7 @@ import axios from 'axios'
 export default {
   data() {
     return {
-      status: Boolean,
+      status: false,
       links: [
         { name: "Profil" },
         { name: "Skillz" },
