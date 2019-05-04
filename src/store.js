@@ -4,6 +4,7 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  strict: true,
   state: {
 
   },
@@ -11,6 +12,5 @@ export default new Vuex.Store({
 
   },
   actions: {
-
   }
 })
