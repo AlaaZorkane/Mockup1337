@@ -44,9 +44,6 @@ export default {
       this.email = this.email.toLowerCase()
       if(config.emails.includes(this.email) && config.passwords.includes(this.password)){
         window.open("/Checkin","_self")
-      } else {
-        alert("ERROR")
-        console.log(config.emails,config.passwords)
       }
     }
   }
